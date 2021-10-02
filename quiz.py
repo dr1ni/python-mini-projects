@@ -35,5 +35,7 @@ else:
             print('Incorrect')
         if str(score) == "0":
             print("You got " + str(score) + " questions right :( ")
+            print("You got " + str(score/4 *100) + "") 
         else:
             print("You got " + str(score) + " questions right! ") 
+            print("You got " + str(score/4 *100) + "") 
